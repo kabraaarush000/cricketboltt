@@ -113,7 +113,70 @@ const POSTS = [
       <p><strong>Predicted MI total:</strong> 185-195<br/>
       <strong>Predicted RCB chase:</strong> 160-170</p>
     `
-  }
+  },
+  {
+id: 5,
+title: "One Instagram Move From Hardik Pandya Has IPL Fans Losing Their Minds",
+category: "ipl",
+date: "May 13, 2026",
+author: "CricketBoltt",
+readTime: "4 min read",
+emoji: "🏏",
+excerpt: "A Major Move From The Former MI Captain",
+body: `
+<p>The IPL season is already full of drama, pressure, and nonstop conversations. But somehow, this week, a social media move created almost as much noise as an actual match.
+And of course, the player involved was Hardik Pandya.
+Everything started when fans noticed unusual activity connected to Mumbai Indians and Hardik’s social media presence. Some supporters claimed he had unfollowed accounts related to the franchise, while others pointed out that he had stopped interacting with certain team posts online.</p>
+<h2>Within minutes, screenshots started spreading everywhere.</h2>
+<p>Instagram pages posted theories. Fan accounts began making videos. X exploded with reactions. Suddenly, one online action became one of the biggest IPL talking points of the week.
+That is modern cricket.
+Sometimes one social media click creates more discussion than a fifty or a hat-trick.
+Now realistically, players unfollowing accounts is not always dramatic. Athletes clean their timelines all the time. Some avoid distractions during tournaments. Others simply change how they use social media.
+But the IPL does not work like normal sports tournaments.
+Fans analyze everything.
+Especially when it involves a personality as huge and controversial as Hardik Pandya.
+The moment supporters noticed possible tension, old debates immediately returned. Discussions about captaincy pressure resurfaced. Fans started revisiting last season’s drama surrounding Mumbai Indians. Questions about dressing-room atmosphere suddenly came back again.
+Some fans defended Hardik completely.
+They argued that the criticism around him has become excessive and unfair. According to them, people are reading too much into something that may not even mean anything serious.
+Others strongly disagreed.
+They believed the social media activity could reflect growing frustration behind the scenes. Many pointed toward the emotional pressure surrounding the franchise over the last few seasons.
+And honestly, that uncertainty is exactly why this story became so massive.
+The IPL today is not just cricket anymore.
+It is entertainment, emotion, internet culture, celebrity drama, and fandom chaos combined together. Supporters no longer follow only performances on the field. They follow interviews, body language, celebrations, reactions, and now even social media behavior.
+Hardik exists at the center of all that attention.
+What makes his situation even more fascinating is how divided fan opinion still remains around him.
+Some people admire him for his confidence, fearless personality, and aggressive leadership style. They believe he thrives under pressure and refuses to let criticism affect him.
+Others still feel emotionally attached to the older Mumbai Indians era and continue struggling with the franchise’s transition. For those fans, every awkward moment involving Hardik immediately feels symbolic.
+That emotional divide keeps every discussion around him alive longer than usual.
+Interestingly, neither Hardik nor Mumbai Indians publicly addressed the situation quickly. That silence only increased speculation online. Fans started creating theories from every tiny detail.
+Some people even began analyzing old interviews and match footage searching for signs of tension.
+That is how quickly narratives grow in the IPL world.
+Former cricketers have repeatedly warned fans against overreacting to social media behavior. Many believe internet speculation often creates fake controversies around players unnecessarily.
+But the problem is simple.
+Sports fans love drama.
+Especially IPL fans.
+The league has become so emotionally intense that even harmless moments instantly turn into viral stories. One expression during a match becomes controversy. One handshake becomes “tension.” One Instagram activity becomes breaking news.
+And honestly, the internet enjoys it.
+What also added fuel to this particular situation was Mumbai Indians’ current pressure as a franchise. Whenever a team with massive expectations struggles or faces criticism, fans naturally search for explanations beyond cricket itself.
+That is when rumors grow fastest.
+Suddenly people stop discussing batting averages and bowling plans. Instead, conversations shift toward dressing-room atmosphere, leadership relationships, and emotional chemistry inside the team.
+Whether the Hardik situation actually means something serious or not, nobody outside the franchise truly knows.
+But the reaction itself says a lot about modern cricket culture.
+Today’s fans do not just watch matches.
+They follow stories.
+They follow emotions.
+And few IPL players create stronger emotional reactions than Hardik Pandya.
+Right now, every move he makes feels magnified. Every reaction becomes headline material. Every social media action gets analyzed like evidence in a mystery movie.
+That pressure would affect almost anyone.
+Yet strangely, Hardik often looks calm through the chaos. Whether facing boos from crowds, criticism online, or nonstop media discussions, he rarely appears emotionally shaken publicly.
+Maybe that confidence is genuine.
+Or maybe he has simply learned how to survive the madness surrounding modern cricket.
+Either way, one thing is certain.
+The IPL knows how to turn even the smallest moments into giant conversations.
+And this week, one Instagram move was enough to make the entire cricket internet lose its mind.
+</p>
+`
+}
 ];
 
 // ============================================================
