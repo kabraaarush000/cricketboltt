@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Player Stats — CricketBoltt</title>
+  <meta name="description" content="IPL 2026 and international cricket player statistics — batting, bowling, and all-rounder rankings." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Cricket<span>Boltt</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="articles.html">Analysis</a></li>
+      <li><a href="stats.html" class="active">Stats</a></li>
+      <li><a href="articles.html?cat=ipl">IPL</a></li>
+      <li><a href="articles.html?cat=international">International</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="articles.html">Analysis</a>
+    <a href="stats.html">Stats</a>
+  </div>
+
+  <div class="page-header">
+    <h1>Player Stats</h1>
+    <p>IPL 2026 &amp; International — updated regularly</p>
+  </div>
+
+  <!-- AD -->
+  <div class="ad-banner" style="max-width:900px; margin: 0 auto 2rem;">
+    <span>Advertisement</span>
+    <div class="ad-placeholder">Google AdSense Banner — Add your AdSense code here</div>
+  </div>
+
+  <section class="section">
+    <!-- TAB TOGGLE -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-tab="batting">Batting</button>
+      <button class="filter-btn" data-tab="bowling">Bowling</button>
+    </div>
+
+    <!-- BATTING TABLE -->
+    <div id="battingTable">
+      <div class="stats-table-wrap">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Player</th>
+              <th>Team</th>
+              <th>Mat</th>
+              <th>Runs</th>
+              <th>Avg</th>
+              <th>SR</th>
+              <th>100s</th>
+              <th>50s</th>
+            </tr>
+          </thead>
+          <tbody id="battingBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- BOWLING TABLE -->
+    <div id="bowlingTable" style="display:none;">
+      <div class="stats-table-wrap">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Player</th>
+              <th>Team</th>
+              <th>Mat</th>
+              <th>Wkts</th>
+              <th>Avg</th>
+              <th>Econ</th>
+              <th>Best</th>
+            </tr>
+          </thead>
+          <tbody id="bowlingBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Cricket<span>Boltt</span></div>
+      <p class="footer-tagline">Cricket intelligence, delivered.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Analysis</a>
+        <a href="stats.html">Stats</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 CricketBoltt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/stats.js"></script>
+</body>
+</html>

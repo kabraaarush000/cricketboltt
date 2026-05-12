@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Article — CricketBoltt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Cricket<span>Boltt</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="articles.html" class="active">Analysis</a></li>
+      <li><a href="stats.html">Stats</a></li>
+      <li><a href="articles.html?cat=ipl">IPL</a></li>
+      <li><a href="articles.html?cat=international">International</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="articles.html">Analysis</a>
+    <a href="stats.html">Stats</a>
+  </div>
+
+  <article class="article-page" id="articleContent">
+    <div class="article-loading">Loading article...</div>
+  </article>
+
+  <!-- AD after article -->
+  <div class="ad-banner" style="max-width:740px; margin: 0 auto 3rem;">
+    <span>Advertisement</span>
+    <div class="ad-placeholder">Google AdSense In-Article Ad — Add your AdSense code here</div>
+  </div>
+
+  <!-- RELATED -->
+  <section class="section" style="max-width:900px; margin: 0 auto;">
+    <div class="section-head">
+      <h2>More Articles</h2>
+      <a href="articles.html" class="see-all">View all &rarr;</a>
+    </div>
+    <div class="articles-grid" id="relatedGrid"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Cricket<span>Boltt</span></div>
+      <p class="footer-tagline">Cricket intelligence, delivered.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Analysis</a>
+        <a href="stats.html">Stats</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 CricketBoltt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/article.js"></script>
+</body>
+</html>

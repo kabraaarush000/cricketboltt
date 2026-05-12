@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analysis — CricketBoltt</title>
+  <meta name="description" content="IPL and international cricket analysis, match previews, and in-depth breakdowns." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Cricket<span>Boltt</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="articles.html" class="active">Analysis</a></li>
+      <li><a href="stats.html">Stats</a></li>
+      <li><a href="articles.html?cat=ipl">IPL</a></li>
+      <li><a href="articles.html?cat=international">International</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="articles.html">Analysis</a>
+    <a href="stats.html">Stats</a>
+    <a href="articles.html?cat=ipl">IPL</a>
+    <a href="articles.html?cat=international">International</a>
+  </div>
+
+  <div class="page-header">
+    <h1>Cricket Analysis</h1>
+    <p>Deep dives, match previews, and player breakdowns</p>
+  </div>
+
+  <!-- FILTER TABS -->
+  <div class="filter-bar">
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="ipl">IPL</button>
+    <button class="filter-btn" data-cat="international">International</button>
+    <button class="filter-btn" data-cat="stats">Stats</button>
+    <button class="filter-btn" data-cat="prediction">Predictions</button>
+  </div>
+
+  <!-- AD -->
+  <div class="ad-banner" style="max-width:900px; margin: 0 auto 2rem;">
+    <span>Advertisement</span>
+    <div class="ad-placeholder">Google AdSense Banner — Add your AdSense code here</div>
+  </div>
+
+  <section class="section">
+    <div class="articles-grid-full" id="articlesGrid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Cricket<span>Boltt</span></div>
+      <p class="footer-tagline">Cricket intelligence, delivered.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Analysis</a>
+        <a href="stats.html">Stats</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 CricketBoltt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/articles.js"></script>
+</body>
+</html>

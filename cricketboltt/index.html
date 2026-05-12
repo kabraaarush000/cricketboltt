@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CricketBoltt — IPL & Cricket Analysis</title>
+  <meta name="description" content="In-depth IPL coverage, international cricket analysis, player stats and insights. Your home for cricket intelligence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Cricket<span>Boltt</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="articles.html">Analysis</a></li>
+      <li><a href="stats.html">Stats</a></li>
+      <li><a href="articles.html?cat=ipl">IPL</a></li>
+      <li><a href="articles.html?cat=international">International</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="articles.html">Analysis</a>
+    <a href="stats.html">Stats</a>
+    <a href="articles.html?cat=ipl">IPL</a>
+    <a href="articles.html?cat=international">International</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text">CRICKET</div>
+    <div class="hero-content">
+      <div class="hero-tag">&#9889; Live Analysis</div>
+      <h1 class="hero-title">Where Cricket<br/><em>Gets Serious.</em></h1>
+      <p class="hero-sub">Deep-dive IPL coverage, international match breakdowns, and player stats that actually matter.</p>
+      <a href="articles.html" class="btn-primary">Read Latest Analysis</a>
+    </div>
+    <div class="hero-card">
+      <div class="hcard-label">Featured</div>
+      <div class="hcard-title" id="featuredTitle">Loading latest article...</div>
+      <div class="hcard-meta" id="featuredMeta"></div>
+      <a href="#" id="featuredLink" class="hcard-link">Read now &rarr;</a>
+    </div>
+  </section>
+
+  <!-- AD BANNER TOP -->
+  <div class="ad-banner">
+    <span>Advertisement</span>
+    <!-- Replace with your Google AdSense code -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+    <div class="ad-placeholder">Google AdSense Banner (728×90) — Add your AdSense code here</div>
+  </div>
+
+  <!-- LATEST ARTICLES -->
+  <section class="section">
+    <div class="section-head">
+      <h2>Latest Articles</h2>
+      <a href="articles.html" class="see-all">View all &rarr;</a>
+    </div>
+    <div class="articles-grid" id="articlesGrid">
+      <!-- Filled by JS from posts.js -->
+    </div>
+  </section>
+
+  <!-- AD MID -->
+  <div class="ad-banner" style="margin: 0 auto 3rem; max-width:900px;">
+    <span>Advertisement</span>
+    <div class="ad-placeholder">Google AdSense In-Content Ad — Add your AdSense code here</div>
+  </div>
+
+  <!-- STATS STRIP -->
+  <section class="stats-strip">
+    <div class="stats-strip-inner">
+      <div class="strip-head">
+        <h2>IPL 2026 — Top Performers</h2>
+        <a href="stats.html" class="see-all">Full stats &rarr;</a>
+      </div>
+      <div class="stats-cards" id="statsStrip">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Cricket<span>Boltt</span></div>
+      <p class="footer-tagline">Cricket intelligence, delivered.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Analysis</a>
+        <a href="stats.html">Stats</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 CricketBoltt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
