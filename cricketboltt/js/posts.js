@@ -9,6 +9,241 @@
 // ============================================================
 
 const POSTS = [
+  // ============================================================
+//  NEW 10 ARTICLES — PASTE THESE AT THE TOP OF YOUR POSTS ARRAY
+//  In GitHub, open posts.js, click pencil, find "const POSTS = ["
+//  and paste ALL of this right after that opening bracket
+//  Make sure to add a comma after the last article before the existing ones
+// ============================================================
+
+  {
+    id: 24,
+    title: "Mumbai Indians Eliminated: The Night a Dynasty Finally Broke",
+    category: "ipl",
+    date: "May 13, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "💔",
+    excerpt: "Mumbai Indians are out of IPL 2026. For a franchise built on winning, this elimination feels like more than just a bad season. It feels like the end of an era.",
+    body: `
+      <p>There are defeats that sting for a day. And then there are defeats that change something permanently. Mumbai Indians' elimination from IPL 2026 feels like the second kind.</p>
+      <p>When the final wicket fell and the numbers confirmed what fans had been dreading for weeks, something shifted. Not just in the points table. In the air around the entire franchise. Five-time champions. The most successful team in IPL history. Out before the playoffs. Again.</p>
+      <h2>How Did It Come to This?</h2>
+      <p>It was not one bad match that ended Mumbai Indians' season. It was twenty matches of slow, painful inconsistency. Games they should have won comfortably somehow slipped away. Batters who looked unstoppable one week disappeared the next. Bowlers who carried the team in previous seasons suddenly looked ordinary.</p>
+      <p>Mahela Jayawardene admitted afterward that MI simply had not been good enough. That honesty was refreshing. But for fans who have watched this team win five trophies, that sentence felt like a punch. Mumbai Indians are not supposed to just "not be good enough." They are supposed to find a way. They always found a way.</p>
+      <h2>The Hardik Question Nobody Can Escape</h2>
+      <p>Conversations about this season will inevitably return to leadership. The transition from Rohit Sharma to Hardik Pandya two seasons ago created wounds inside the fanbase that never fully healed. Some supporters never emotionally accepted the change. Every defeat since has felt like confirmation of their fears.</p>
+      <p>Whether that is fair or not almost doesn't matter anymore. Perception becomes reality in the IPL. And right now, the perception around Mumbai Indians is that something fundamental is broken. Not the batting. Not the bowling. The soul.</p>
+      <h2>What Happens Next?</h2>
+      <p>The painful truth is that rebuilding a dynasty is harder than building one. When you start from zero, every small victory feels like progress. When you fall from the top, every small defeat feels like collapse. Mumbai Indians now face that impossible task — rebuilding while carrying the weight of everything they once were.</p>
+      <p>For the fans who have given years of emotion to this franchise, this elimination hurts deeply. Not because one trophy was missed. But because for the first time in a long time, the future feels genuinely uncertain. And for a franchise built entirely on certainty, that feeling is the strangest thing of all.</p>
+    `
+  },
+
+  {
+    id: 23,
+    title: "Vaibhav Suryavanshi at 14: Is Cricket Watching Its Most Extraordinary Talent Ever?",
+    category: "ipl",
+    date: "May 13, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "🌟",
+    excerpt: "He is 14 years old. He is playing in the IPL. And he is not just surviving — he is thriving. Vaibhav Suryavanshi is doing something cricket has never quite seen before.",
+    body: `
+      <p>Close your eyes and think about what you were doing at 14. School. Friends. Maybe your first cricket bat in the backyard. Certainly not standing at the crease in front of 50,000 screaming fans in one of the most pressure-filled sporting competitions on the planet.</p>
+      <p>Vaibhav Suryavanshi is 14 years old. And he is not just playing in the IPL. He is one of the most talked-about batters in the entire tournament.</p>
+      <h2>Numbers That Should Not Be Possible</h2>
+      <p>440 runs. A strike rate above 170. Consistently opening the batting for Rajasthan Royals against some of the most experienced bowlers in world cricket. These are not numbers you expect from a teenager in his first IPL season. These are numbers that experienced international players spend years trying to achieve.</p>
+      <p>What makes Suryavanshi genuinely special is not just the talent — it is the composure. Most 14-year-olds would be terrified walking out to face express pace bowling with thousands of fans judging every movement. He looks like he belongs there completely. Like the IPL stage was built specifically for him.</p>
+      <h2>The Shots That Make You Stop Breathing</h2>
+      <p>There is a particular pull shot he plays off short deliveries that has been shared millions of times on social media. The ball is bowled short and fast. Most batters at his age would duck or flinch. Suryavanshi rocks back, picks the length in a fraction of a second, and sends the ball over the boundary with terrifying ease.</p>
+      <p>Experienced bowlers have spoken about how unsettling it is to bowl at him. You plan your attack around exploiting nervousness or inexperience. He gives you neither. He simply watches the ball and plays it on its merit every single time.</p>
+      <h2>The Weight of Expectation</h2>
+      <p>The danger now is the world around him changing faster than a 14-year-old should have to handle. Sponsorship deals. Social media attention. National team discussions already beginning. Comparisons to the greatest players India has ever produced.</p>
+      <p>The cricket world needs to be careful with Vaibhav Suryavanshi. Not because he cannot handle pressure — he has already proved otherwise. But because extraordinary talent deserves time to grow naturally, without the crushing weight of becoming a symbol before you are old enough to fully understand what that means.</p>
+      <p>For now though, every time he walks to the crease, something magical feels possible. And in a sport that has existed for over a century, that feeling is rarer than any statistic can measure.</p>
+    `
+  },
+
+  {
+    id: 22,
+    title: "Bhuvneshwar Kumar at 36: The Most Beautiful Comeback Story in IPL 2026",
+    category: "ipl",
+    date: "May 12, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "🎖️",
+    excerpt: "Everyone said his best days were behind him. Bhuvneshwar Kumar decided to prove every single one of them wrong. This is the story of a cricketer who refused to disappear.",
+    body: `
+      <p>There is a particular cruelty in how cricket treats ageing players. One bad season and suddenly the conversation shifts. "Past his best." "Should retire." "Making up numbers." Bhuvneshwar Kumar heard all of it. And then he came to IPL 2026 and quietly became the tournament's leading wicket-taker.</p>
+      <p>21 wickets. Economy of 7.47. Match-winning performances in pressure situations. From a bowler many had already written farewell articles about.</p>
+      <h2>What Changed?</h2>
+      <p>The honest answer is nothing dramatic changed. Bhuvneshwar did not suddenly discover a new delivery or reinvent his action. What changed was something quieter and more powerful — he remembered exactly who he was and stopped trying to be anything else.</p>
+      <p>Earlier seasons saw him chasing pace he no longer had, trying to overpower batters with aggression that was never his natural game. This season, he returned completely to his roots. Swing. Seam. Intelligence. Patience. The things that made him one of India's finest bowlers in the first place.</p>
+      <h2>The Art of Doing Less</h2>
+      <p>Watching Bhuvneshwar bowl this season feels different from watching most IPL bowlers. In a tournament obsessed with speed, aggression, and spectacle, he operates in his own quiet world. No dramatic celebrations after every delivery. No staring contests with batters. Just perfect lines, clever variations, and wickets that arrive almost without drama.</p>
+      <p>Ambati Rayudu described him recently as "becoming an artist." That word feels exactly right. Great artists do not need to shout. They let the work speak. Every time Bhuvneshwar beats an edge or traps a batter in front, the wicket feels inevitable rather than surprising.</p>
+      <h2>For Everyone Who Was Written Off</h2>
+      <p>What makes this comeback genuinely emotional is what it represents beyond cricket. Every person who has ever been told they are finished, that their time has passed, that they should simply accept decline — Bhuvneshwar Kumar is playing for all of them this season.</p>
+      <p>At 36, in one of the most physically demanding formats of cricket, against the best batting lineups money can assemble, he is not just surviving. He is leading. And perhaps the most beautiful thing about this story is how quietly he is telling it — one perfect delivery at a time.</p>
+    `
+  },
+
+  {
+    id: 21,
+    title: "IPL 2026 Playoffs: Full Schedule, Dates, Venues and Who Can Still Qualify",
+    category: "ipl",
+    date: "May 12, 2026",
+    author: "CricketBoltt",
+    readTime: "4 min read",
+    emoji: "🏆",
+    excerpt: "The IPL 2026 playoffs are confirmed with Ahmedabad hosting the Grand Finale. Here is everything you need to know — dates, venues, and the qualification picture.",
+    body: `
+      <p>The IPL 2026 playoffs are almost here. After weeks of drama, upsets, and points table chaos, the tournament is finally entering its most emotional phase. Here is everything you need to know.</p>
+      <h2>Playoffs Schedule</h2>
+      <p>The BCCI has confirmed that Ahmedabad will host the IPL 2026 Grand Finale — one of the most iconic cricket venues in the world, with a capacity of over 130,000 spectators. The Qualifier 1, Eliminator, and Qualifier 2 will be held at venues across India in the days leading up to the final.</p>
+      <p>The playoff format remains the same as previous seasons. The top two teams on the points table play Qualifier 1, with the winner going directly to the final. The third and fourth placed teams play the Eliminator, with the winner playing the loser of Qualifier 1 in Qualifier 2.</p>
+      <h2>Who Can Still Qualify?</h2>
+      <p>With Mumbai Indians already eliminated, the race for the remaining playoff spots is intense. Several teams are separated by just two points, meaning every remaining league match carries enormous weight. Net run rate could ultimately decide who advances and who goes home.</p>
+      <p>The teams currently in the strongest position have been consistent throughout the season. But as this IPL has repeatedly shown, consistency means very little when pressure arrives. Teams that looked safe have collapsed. Teams that looked finished have revived.</p>
+      <h2>Why This Playoffs Feels Different</h2>
+      <p>There is no dominant team entering this playoff phase the way Mumbai Indians or Chennai Super Kings once did. Nobody looks unbeatable. Nobody looks safe. That unpredictability makes the entire playoff picture genuinely exciting for neutral fans and absolutely terrifying for supporters of every team still involved.</p>
+      <p>One thing is certain — the road to Ahmedabad will be emotional, dramatic, and completely unpredictable. Which, honestly, is everything the IPL was built to be.</p>
+    `
+  },
+
+  {
+    id: 20,
+    title: "Priyansh Arya: The Player Nobody Saw Coming Who Is Now Impossible to Ignore",
+    category: "ipl",
+    date: "May 11, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "🚀",
+    excerpt: "Three weeks ago, most cricket fans outside Punjab had never heard of Priyansh Arya. Now he is one of the most exciting names in IPL 2026. This is how it happened.",
+    body: `
+      <p>Three weeks ago, if you had asked most cricket fans outside Punjab who Priyansh Arya was, you would have been met with silence or a confused shrug. Today, his name appears in IPL conversations every single day. His highlights fill social media feeds. Experienced analysts are running out of superlatives.</p>
+      <p>A 24-ball fifty. Against one of the best bowling attacks in the tournament. In a high-pressure match that Punjab Kings desperately needed to win. That is the innings that changed everything.</p>
+      <h2>Who Is Priyansh Arya?</h2>
+      <p>Arya is a 22-year-old opening batter from Delhi who has spent years quietly developing his game in domestic cricket without receiving the spotlight that more celebrated young players attract. No massive auction price. No breathless media coverage before the season. Just a cricketer doing the hard unglamorous work of improving every day.</p>
+      <p>That background matters. Players who arrive in the IPL through hard work rather than hype often carry a different mentality. They have nothing to prove to the world because the world was not watching. They play freely. Fearlessly. Without the invisible weight of expectation that crushes so many highly-touted young cricketers.</p>
+      <h2>The Way He Bats</h2>
+      <p>What makes Arya immediately watchable is his attacking intent from the very first ball. He does not ease himself in. Does not respect reputations. Does not treat the first ten deliveries as a feeling-out period. From ball one, he is looking to score, looking to attack, looking to take the game away from the bowling side before they have time to settle.</p>
+      <p>That aggression is not recklessness — it is calculated. He reads lengths quickly, has a full range of shots, and crucially, knows when to attack and when to rotate. The 24-ball fifty was not lucky. It was the result of someone who has spent thousands of hours preparing for exactly this moment.</p>
+      <h2>The Danger of Sudden Fame</h2>
+      <p>The IPL spotlight is generous and brutal in equal measure. It lifts unknown players to national attention overnight and then watches closely for any sign of weakness or inconsistency. Priyansh Arya now faces the hardest challenge in sport — following up one extraordinary performance with another, and another, and another.</p>
+      <p>But if the composure he showed in that fifty is any indication of his character, the spotlight may have finally found someone truly ready for it.</p>
+    `
+  },
+
+  {
+    id: 19,
+    title: "Why Mumbai Indians Failed in IPL 2026: An Honest, Painful Breakdown",
+    category: "ipl",
+    date: "May 11, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "📉",
+    excerpt: "Five titles. The most successful franchise in IPL history. Out before the playoffs in 2026. How did Mumbai Indians fall this far — and what needs to change?",
+    body: `
+      <p>Nobody wanted to write this article. Not really. Writing about why Mumbai Indians failed means accepting that something genuinely went wrong — not just bad luck, not just injuries, but something deeper and more uncomfortable.</p>
+      <p>So let us be honest about it. Because MI fans deserve honesty more than they deserve comfort right now.</p>
+      <h2>The Batting Never Found Consistency</h2>
+      <p>On paper, Mumbai Indians' batting lineup looked fearsome entering this season. Experienced internationals across every position. Power hitters in the middle order. Finishers who had won matches under pressure before.</p>
+      <p>In reality, the batting was inconsistent in ways that felt almost impossible to explain. Matches where the top order collapsed chasing moderate totals. Games where the middle order failed to accelerate at the right moments. An alarming inability to win close matches that previous MI teams would have found ways to take.</p>
+      <h2>The Leadership Atmosphere</h2>
+      <p>This is the conversation MI fans keep returning to, and ignoring it would be dishonest. The atmosphere around the leadership this season never felt settled. Cameras repeatedly captured moments of visible frustration. Body language between players sometimes looked disconnected during difficult passages of play.</p>
+      <p>Whether those observations reflect genuine internal problems or simply the normal emotions of a struggling team, nobody outside the dressing room truly knows. But perception shapes confidence. And confidence shapes results. Whatever was happening emotionally inside the MI camp, it showed on the field more than it should have.</p>
+      <h2>What Must Change</h2>
+      <p>Mumbai Indians need to do something they have historically been reluctant to do — make uncomfortable decisions. Not just about playing eleven selections or tactical approaches, but about the emotional culture of the franchise itself.</p>
+      <p>The teams that MI built their dynasty with thrived because every player felt emotionally invested in the collective identity. That connection — between players, between franchise and fanbase, between past and present — is what turned talented groups into champions. Rebuilding that connection is the real challenge ahead. And it cannot be solved through an auction.</p>
+    `
+  },
+
+  {
+    id: 18,
+    title: "T20 World Cup 2026: Bangladesh Removed — What This Means for Cricket",
+    category: "international",
+    date: "May 11, 2026",
+    author: "CricketBoltt",
+    readTime: "4 min read",
+    emoji: "🌐",
+    excerpt: "Bangladesh have been removed from the T20 World Cup 2026 by the ICC. It is a stunning decision — and it raises serious questions about the future of international cricket.",
+    body: `
+      <p>In all the years of international cricket, very few decisions have shocked the sport quite like this one. Bangladesh — a full ICC member nation, a team that has played T20 World Cups for years — have been removed from the 2026 tournament. The Bangladesh government has now formed a three-man committee to investigate exactly how this happened.</p>
+      <p>For cricket fans across South Asia, this is not just administrative news. It is deeply personal. Bangladesh cricket means everything to millions of people. Watching their team removed from a World Cup feels like something precious being taken away without warning.</p>
+      <h2>What Actually Happened?</h2>
+      <p>The full details are still emerging, but the core of the situation involves a breakdown in communication and compliance between the Bangladesh Cricket Board and the ICC. Whatever the specific technical reasons, the outcome is devastating — Bangladesh players who have worked their entire careers for World Cup moments will not get that opportunity in 2026.</p>
+      <p>The Bangladesh government's decision to investigate suggests they believe the BCB made serious errors in handling the situation. That investigation will be watched closely across cricket because accountability in cricket administration has historically been inconsistent and unsatisfying.</p>
+      <h2>The Bigger Question for Cricket</h2>
+      <p>Beyond Bangladesh specifically, this situation forces an uncomfortable conversation about how the ICC treats its smaller and mid-level member nations. The financial and administrative gap between the major cricket boards and everyone else continues to grow. Nations with fewer resources face impossible demands with insufficient support.</p>
+      <p>Cricket is supposed to be a global sport. But a global sport cannot afford to remove members from its biggest tournaments over administrative failures without asking serious questions about its own systems. Bangladesh deserved better. Their fans deserved better. And cricket as a whole needs to do better.</p>
+    `
+  },
+
+  {
+    id: 17,
+    title: "Suryansh Shedge: The Mumbai Indians Finisher Who Learned to Stay in the Present",
+    category: "ipl",
+    date: "May 10, 2026",
+    author: "CricketBoltt",
+    readTime: "4 min read",
+    emoji: "💫",
+    excerpt: "He waited years for his IPL opportunity. When it finally came, Suryansh Shedge was ready — thanks to advice from Ricky Ponting, Shreyas Iyer, and a simple philosophy about living in the moment.",
+    body: `
+      <p>Cricket is full of players who wait. They develop quietly in domestic cricket, watching others get opportunities, wondering if their moment will ever arrive. Most never get the chance to find out. Suryansh Shedge waited — and when Mumbai Indians finally gave him his opportunity this season, he was ready in a way that felt almost supernatural.</p>
+      <p>The secret, according to Shedge himself, is simple: stay in the present. Do not think about past failures. Do not worry about future selection. Just this ball, this moment, this situation.</p>
+      <h2>The Mentors Who Changed His Thinking</h2>
+      <p>Shedge has spoken openly about the influence of Ricky Ponting, Shreyas Iyer, and Jatin Paranjape on his development. What strikes you immediately about his descriptions of their advice is how little of it was technical. Very little discussion of batting grip or footwork. Almost everything was about the mind.</p>
+      <p>Ponting — one of the greatest pressure players cricket has ever produced — apparently told Shedge that finishing games was about trust. Trust in your preparation. Trust in your instincts. Trust that everything you have practiced will be available when you need it most. Stop thinking and start trusting.</p>
+      <h2>What He Does in the Final Overs</h2>
+      <p>Watching Shedge bat in the death overs reveals a player who has genuinely absorbed that philosophy. Where many young batters look panicked under final-over pressure, he looks almost relaxed. Not arrogant. Not reckless. Simply calm. Like someone who has already accepted whatever outcome is coming and decided to play freely within that acceptance.</p>
+      <p>In a season where Mumbai Indians struggled for consistency, Shedge was one of the few genuine bright spots — a young player who emerged from difficulty looking more complete than when the season started. Whatever comes next for him, the foundation he has built this season feels solid and real.</p>
+    `
+  },
+
+  {
+    id: 16,
+    title: "IPL 2026 Final Prediction: Who Wins the Trophy in Ahmedabad?",
+    category: "prediction",
+    date: "May 13, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "🥇",
+    excerpt: "The Grand Finale is set for Ahmedabad. Mumbai Indians are out. The field is open. Here is our honest prediction for who lifts the IPL 2026 trophy — and why.",
+    body: `
+      <p>Ahmedabad. 130,000 fans. The biggest night in Indian cricket's calendar. The IPL 2026 Grand Finale is coming — and for the first time in years, nobody can confidently say who is going to win it.</p>
+      <p>Mumbai Indians are gone. Chennai Super Kings are struggling. The tournament is wide open in a way it genuinely has not been for several seasons. And that unpredictability makes this prediction both exciting and genuinely difficult.</p>
+      <h2>The Teams With Momentum</h2>
+      <p>Sunrisers Hyderabad enter the playoff phase with the most dangerous batting lineup in the competition. Heinrich Klaasen, Abhishek Sharma, and the rest of their top order have been devastating throughout the season. When SRH bat first and post big totals, they are almost impossible to stop.</p>
+      <p>Gujarat Titans have been the most consistent team across the full season. Shubman Gill has looked increasingly confident as a captain. Their bowling attack is balanced and experienced. They do not have the most spectacular individual performers but consistently perform as a team — which historically matters more in playoff cricket.</p>
+      <p>Delhi Capitals have surprised everyone. KL Rahul's batting has been exceptional. Kuldeep Yadav looks genuinely dangerous. They carry the energy of a team that feels it has something to prove to the world.</p>
+      <h2>Our Prediction</h2>
+      <p>Gujarat Titans to win IPL 2026. Not because they are the most exciting team — SRH would win that argument. Not because they have the best individual player — KL Rahul might. But because playoff cricket rewards consistency, balance, and calm. And no team in this tournament has shown more of all three than Gujarat Titans across a full season.</p>
+      <p>Shubman Gill lifting the trophy in Ahmedabad would feel like a story that has been building quietly all season — the kind of victory that in ten years, fans will say they saw coming all along. Even if right now, in this moment of genuine uncertainty, nobody can be completely sure of anything.</p>
+    `
+  },
+
+  {
+    id: 15,
+    title: "Krunal Pandya's IPL 2026 Transformation: How He Became Someone Nobody Expected",
+    category: "ipl",
+    date: "May 10, 2026",
+    author: "CricketBoltt",
+    readTime: "5 min read",
+    emoji: "🔄",
+    excerpt: "For years, Krunal Pandya existed in his brother's shadow. This IPL season, he has finally stepped fully into his own light — and the cricket world is starting to notice.",
+    body: `
+      <p>Being the older brother of Hardik Pandya is, by any measure, an impossible position. Your sibling becomes one of the most talked-about cricketers in the world — celebrated, criticized, debated, discussed constantly — and you are always somewhere in the background of that story. Talented but secondary. Capable but overlooked.</p>
+      <p>IPL 2026 has started changing that narrative. And the change has arrived not through drama or controversy but through something far more quietly powerful — exceptional cricket.</p>
+      <h2>What ESPNcricinfo Called "The Krunal Method"</h2>
+      <p>ESPNcricinfo recently featured Krunal in a piece about players doing "incredible things" — high praise from one of cricket's most respected publications. The article focused on something his coaches have spoken about privately for years: Krunal's cricket intelligence is extraordinary. His ability to read situations, adjust in the moment, and execute under pressure has reached a level that very few all-rounders in T20 cricket can match.</p>
+      <p>He is not the biggest hitter. He does not bowl at 145 kilometres per hour. He does not have the physical presence that makes television cameras linger. What he has is something rarer — genuine understanding of the game in its most complex moments.</p>
+      <h2>The Art of Being Underestimated</h2>
+      <p>There is a strange advantage in being underestimated for long enough. Opponents stop planning specifically for you. Captains do not set defensive fields before you have done anything. You get to simply play cricket without the weight of massive expectations bending every decision you make.</p>
+      <p>Krunal has spent years in that position. And slowly, almost invisibly, he has used that freedom to become a genuinely match-winning cricketer. This season, the underestimation is ending. And for a player who has waited this long for recognition, the timing feels absolutely right.</p>
+    `
+  },
 
   {
     id: 14,
